@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERIC STYLES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; /* 1em = 14 px = 1rem*/
+    line-height: 1.5;
+    color: black;
+}
+h1 {
+    font-size: 71px;
+    line-height: 106px;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+
+h2{ 
+    font-size: 48px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+.container {
+    padding: 1em;
+}
+
+img { max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #222222;
+}
+
+nav a:link,nav a:visited {
+    display: block;
+    color: #c78b07;
+    font-size: 18px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li.current a:link, nav li.current a:visited {
+    background-color: #c78b07;
+    color: #000;
+}
+
+.logo {
+    background-color: #c78b07;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* WELCOME SECTION */
+
+.header-welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.header-welcome .container{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 50px;
+}
+
+.header-welcome button {
+
+}
+
+/*ABOUT SECTION */
+
+.section-about {
+    background-color: #ffe6ac;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================
+DESKTOP STYLES
+=================== */
+
+@media screen and (min-width: 1200px) {
+
+.container {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+    
+}

@@ -104,6 +104,21 @@ nav li.current a:link, nav li.current a:visited {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+nav form button {
+	background-color: #222222;
+	border-radius: 1px;
+	border-color: #c78b07;
+	height: 45px;
+	width: 42px;
+	color: #c78b07;
+}
+
+nav form input {
+    width: 91%;
+    padding: 10px;
+    font-size: large;
+}
+
 
 /* WELCOME SECTION */
 
@@ -121,8 +136,13 @@ nav li.current a:link, nav li.current a:visited {
 }
 
 .header-welcome button {
-
+    font-size: 1.5em;
+    background-color: #c78b07;
+    height: 96px;
+	width: 259px;
+    border: none;
 }
+
 
 /*ABOUT SECTION */
 
@@ -130,24 +150,204 @@ nav li.current a:link, nav li.current a:visited {
     background-color: #ffe6ac;
 }
 
+.section-about h2{
+    padding-top: 20px;
+}
 
 
+/* SERVICES SECTION*/
+
+.section-services h2 {
+    margin-top: 25px;
+	margin-bottom: 12px;
+    margin-left: 13px;
+}
+
+.section-services img {
+    padding: 0% ;
+	height: auto;
+    width: 100% ;
+}
+
+.section-services h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 13px;
+}
+
+.section-services p {
+    margin-left: 13px;
+}
+
+.section-services button {
+    font-size: 1.5em;
+    background-color: #222222;
+    border: none;
+    height: 96px;
+	width: 259px;
+    color: white;
+    padding: 34px;
+    margin-bottom: 30px;
+    margin-left: 13px;
+}
+.section-services .digitransformation {
+    background-color: #ffe6ac;
+}
+
+.section-services .marketing{
+    background-color: #ffe6ac;    
+}
+
+.section-services .videoprod{
+    background-color: #ffe6ac;
+}
+
+.section-services .webdev {
+    background-color: #ffe6ac;
+}
+
+.section-services .print {
+    background-color: #ffe6ac;
+}
+
+/* ==========
+    OUR VISION
+    STYLES
+    ==========*/
+.section-vision {
+    margin-top: 30px;
+background-image: url(../images/vision.jpg);
+background-size: cover;
+background-position-y: -95px;
+color: white;
+
+}
+
+.section-vision h3{
+    font-size:xx-large;
+    font-weight: bold;
+    margin-top:  20px;
+    margin-bottom: 20px;
+   
+}
+
+.section-vision button{
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-color: #c78b07;
+    height: 96px;
+	width: 259px;
+    color: white;
+    padding: 34px;
+    margin-bottom: 15px;
+
+}
+ /* ==================
+ OUR TEAM SECTION STYLES
+ ======================*/
+
+ .section-team h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #ffe6ac;
+ }
+
+ .section-team h4 {
+    font-size: large;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: #c78b07;
+    background-color: #ffe6ac;
+ }
+
+ .section-team p {
+    background-color: #ffe6ac;
+ }
+
+.section-team img { 
+    padding: 0% ;
+	height: auto;
+    width: 100% ;
+
+}
+    
+/* REST OF THE PAGE */
+.section-contact h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-contact input[type=text] {
+height: 30px;
+margin-top: 4px;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.section-contact input[id="message"] {
+    height: 150px;
+}
+
+.section-contact [type=submit] {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #c78b07;
+    background-color: #222222;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 90%;
+    height: 150px;
+    
+}
 
 
+th{
+    height: 35px;
+}
+th:nth-child(1){
+    background-color: #ffe6ac;
+    text-align: center;
+    padding-top:  10px;
+    
+}
+th:nth-child(2) {
+    background-color: #ffe6ac;
+    text-align: center;
+    padding-top: 10px;
+}
 
+td { 
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
 
+.section-contact h2 {
+    padding-top: 15px;
+}
 
+footer {
+    color: #c78b07;
+    background-color: #222222;
+}
+@media screen and (min-width: 760px) {
 
-
-
-
-
-
-
-
-
-
-
+    .container {
+        width: 706px;
+        margin: 0 auto;
+    }
+    
+}
 
 
 
@@ -161,6 +361,150 @@ DESKTOP STYLES
     width: 1172px;
     margin: 0 auto;
 }
+.header-welcome h1 {
+    font-size: 82px;
+}
+    .header-welcome p {
+        font-size: 18px;
+    }
 
+    .section-about .grid {
+        display: grid;
+        grid-template-areas: "a b";
+        gap: 15px;
+    }
+    .section-services h2 {
+        text-align: left;
+    }
+    
+.section-services .grid2 {
+    display: grid;
+    grid-template-areas:
+                        " a a a b b b "
+                        " a a a b b b "
+                        " a a a b b b "
+                        " c c d d e e "
+                        " c c d d e e "
+                        " c c d d e e "
+                    
+}
+ 
+.grid2a {
+
+  grid-area: a;
+}
+
+.grid2b {
+    grid-area: b;
+    width: 500px;
+
+}
+
+.grid2c {
+grid-area: c;
+height: 620px;
+width: 380px;
+}
+
+.grid2d {
+    grid-area: d;
+    height: 620px;
+width: 380px;
+}
+.grid2e {
+    grid-area: e;
+    height: 620px;
+width: 380px;
+}
+
+.section-vision{
+    background-image: url(../images/vision.jpg);
+    background-position-y: -350px;
+}
+.flexy {
+display: flex;
+flex-wrap: wrap;
+}
+.flexy img {
+    width: 575px;
+    height: 410px;
+    margin: 0px;
+}
+
+.flexy .john{
+    width: 575px;
+    height: 410px;
+    margin: 0px;
+}
+.flexy .bob {
+    width: 575px;
+    height: 410px;
+    margin: 0px;
+}
+
+.flexy .bobrite{
+    order: 3;
+}
+
+/*contact*/
+
+.section-contact .grid3 {
+    display: grid;
+    grid-template-areas: " a a a b b b  "
+                         " a a a b b b "
+                         " a a a b b b "
+                         " c c c c c c "
+                         " c c c c c c ";
+        column-gap: 12px;                 
+}
+
+.grid3a {
+    grid-area: a;
+    max-width: 550px;
+}
+.grid3b {
+    grid-area: b;
+    
+
+}
+
+.grid3c {
+    grid-area: c;
+    width: 1300px;
+
+}
+
+/* ===============
+DESKTOP NAVIGATION BAR 
+====================*/
+nav .container{
+    display: flex;
+}
+nav .container input{
+    width: 230px;
+   margin-top: 65px;
+}
+nav li {
+    display: inline-block;
+    padding-top: 55px;
+    height: 50px;
+    width: 140px;
+}
+nav .logo {
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 100px;
+	width: 100px;
+    background-color:#222222; 
     
 }
+
+}
+    
+
+
+
+
+
+
+
